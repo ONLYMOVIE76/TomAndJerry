@@ -65,7 +65,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"▫️ {get_size(file.file_size)} ‣ {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"{get_size(file.file_size)} {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -92,7 +92,7 @@ async def next_page(bot, query):
     btn.insert(1,
         [
             InlineKeyboardButton(f'📂 ғɪʟᴇs: {len(files)}', 'dupe'),
-            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tips'),
+            InlineKeyboardButton(f'🎯 Guide', 'tips'),
             InlineKeyboardButton(f'📮 ɪɴғᴏ', 'info')
         ]
     )
@@ -153,9 +153,9 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Support Group To Add This Movie In My Database \n\n©️ @Coby_Support</b>")
+            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Support Group To Add This Movie In My Database \n\n©️ @DropYouerRequestBot</b>")
             button = [
-                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Coby_Support')
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/onlymovie76BackUp')
               ]
             await asyncio.sleep(14)
             await k.delete()
@@ -440,9 +440,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs ⚡', callback_data='start')
         ], [
             InlineKeyboardButton('👑 ᴏɴᴡᴇʀ', callback_data='about'),
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/+jDYSx5O_geQ1ZThl')
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/onlymovie76')
         ], [
-            InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/MovieHubOtt'),
+            InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/onlyseries76'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ', callback_data='close_data')
         ], [
             InlineKeyboardButton('📈 sᴛᴀᴛᴜs', callback_data='stats')
@@ -633,11 +633,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'reqst1':
         await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
     elif query.data == 'info':
-        await query.answer("⚠︎ Information ⚠︎\n\nAfter 3 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+        await query.answer("⚠︎ Information ⚠︎\n\nAfter 3 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ Astrong Bots", True)
     elif query.data == 'movies':
-        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ onlyseries76", True)
     elif query.data == 'series':
-        await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴍᴏᴠɪᴇ ʜᴜʙ", True)
+        await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ onlymovie76", True)
     elif query.data == 'spelling':
         await query.answer("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️", True)
     elif query.data == "neosub":
@@ -674,7 +674,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"▫ {get_size(file.file_size)} ‣ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"{get_size(file.file_size)} {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -702,7 +702,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(1,
         [
             InlineKeyboardButton(f'📂 ғɪʟᴇs: {total_results}', 'dupe'),
-            InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tips'),
+            InlineKeyboardButton(f'🎯 Guide', 'tips'),
             InlineKeyboardButton(f'📮 ɪɴғᴏ', 'info')
         ]
     )
@@ -755,7 +755,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} \n\n<i> Title : {search}\n Your Files is Ready Now</i></b>"
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
