@@ -5,7 +5,7 @@ Hello You Can Add Meh To You're Group.<a href='https://t.me/onlymovie76'>@onlymo
 """
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
     
-You can add this bot to You're Group <a href='https://t.me/onlymovie76'>𝖬ᴏᴠɪᴇ</a> Gʀᴏᴜᴘ. Just Make Me Admin.I will Provide Movie/series</b>
+You can add this bot to You're Group <a href='https://t.me/onlymovie76'>𝖬ᴏᴠɪᴇ</a> Gʀᴏᴜᴘ. Just Make Me Admin.I will Provide Movie/series</b>"""
     ABOUT_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Astrong
