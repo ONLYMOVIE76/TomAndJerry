@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/4kcinemas/Netflix-Bot.git /Netflix-Bot
+  git clone https://github.com/ONLYMOVIE76/TomAndJerry /Netflix-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Netflix-Bot
