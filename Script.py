@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {}
     
-Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>𝖬ᴏᴠɪᴇ 𝖧ᴜʙ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>
+Hello You Can Add Meh To You're Group.<a href='https://t.me/onlymovie76'>@onlymovie76</a> Gʀᴏᴜᴘ.Just Make Me Admin.I will Provide Movie/series</b>
 """
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
     
-Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>𝖬ᴏᴠɪᴇ 𝖧ᴜʙ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
+You can add this bot to You're Group <a href='https://t.me/onlymovie76'>𝖬ᴏᴠɪᴇ</a> Gʀᴏᴜᴘ. Just Make Me Admin.I will Provide Movie/series</b>
     ABOUT_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : sʜɪᴠᴀ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @OGGY123kph
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/OGGY123kph'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Astrong
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Astrong_Bots
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ : <a href='https://t.me/Astrong_Bots'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 “ Failure is an option here. If things are not failing, you are not innovating enough. ”</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
@@ -18,7 +18,7 @@ Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>
 - ഇപ്പൊ കിട്ടും നോക്കി ഇരുന്നോ .
 
 <b>DEVS:</b>
-- <a href=https://t.me/ss_linkz>ss ʟɪɴᴋᴢ</a>"""
+- <a href=https://t.me/onlyseries76>Series</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𝕋𝔼𝕊𝕊𝔸 will respond whenever a keyword is found the message
@@ -99,12 +99,12 @@ This module only works for my admins
 👥 ɢʀᴏᴜᴘs: <code>{}</code>
 📉 ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code> """
  
-    LOG_TEXT_G = """📮 ᴄᴏʙʏ ʙᴏᴛ #NewGroup
+    LOG_TEXT_G = """📮 Captain #NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """📮 ᴄᴏʙʏ ʙᴏᴛ #NewUser
+    LOG_TEXT_P = """📮 Captain #NewUser
 ID - <code>{}</code>
 Name - {}
 """
