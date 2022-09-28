@@ -238,7 +238,7 @@ async def start(client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🎯 Guide", callback_data="tips"),
                                               InlineKeyboardButton("💝 sʜᴀʀᴇ", url="https://t.me/share/url?url=😱%20onlymovie%2076.²·⁰%20😱%0A%0Aഏത്%20അർധരാത്രി%20ചോദിച്ചാലും%20പടം%20കിട്ടും,%20ലോകത്തിലെ%20ഒട്ടുമിക്ക%20ഭാഷകളിലുമുള്ള%20സിനിമകളുടെ%20കളക്ഷൻ..%20❤️%0A%0A👇%20GROUP%20LINK%20👇%0A@onlymovie76%0A@onlymovie76%0A@onlyseries76") ],
-                                            [ InlineKeyboardButton("🔮 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs 🔮", url="https://t.me/moviehubgroupp") ] ] ),
+                                            [ InlineKeyboardButton("Series Group", url="https://t.me/TvSeriesLand4U") ] ] ),
                                             
         protect_content=True if pre == 'filep' else False,
         )
